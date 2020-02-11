@@ -24,8 +24,8 @@ zuul:
     order-service: /order-service/**
   retryable: true
 ribbon:
-  ConnectTimeout: 1000
-  ReadTimeout: 1000
+  ConnectTimeout: 10000
+  ReadTimeout: 10000
   MaxAutoRetriesNextServer: 1
   MaxAutoRetries: 1
   
